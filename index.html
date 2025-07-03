@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23E4405F'><rect width='24' height='24' rx='6' fill='%23E4405F'/><rect x='2' y='2' width='20' height='20' rx='5' fill='none' stroke='white' stroke-width='2'/><circle cx='12' cy='12' r='4' fill='none' stroke='white' stroke-width='2'/><circle cx='18' cy='6' r='1.5' fill='white'/></svg>">
+</head>
+<body>
+    <div class="landing-container">
+        <div class="landing-content">
+            <!-- Phone Mockup Section -->
+            <div class="phone-mockup">
+                <div class="phone-frame">
+                    <div class="phone-content">
+                        <!-- Rotating phone screens -->
+                        <div class="phone-screen screen-1">
+                            📸 Share Photos
+                        </div>
+                        <div class="phone-screen screen-2">
+                            💬 Connect Friends
+                        </div>
+                        <div class="phone-screen screen-3">
+                            📱 Stories & Reels
+                        </div>
+                        <div class="phone-screen screen-4">
+                            🌟 Discover More
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Auth Section -->
+            <div class="auth-section">
+                <div class="auth-wrapper">
+                    <!-- Main Auth Card -->
+                    <div class="auth-card main">
+                        <!-- Instagram Logo -->
+                        <div style="text-align: center; margin-bottom: 32px;">
+                            <h1 style="font-family: 'Cookie', cursive; font-size: 51px; color: #262626; margin: 0; font-weight: normal; line-height: 1;">Instagram</h1>
+                        </div>
+
+                        <!-- Login Form -->
+                        <form class="auth-form" id="loginForm">
+                            <div class="form-group">
+                                <input 
+                                    type="text" 
+                                    name="username" 
+                                    class="form-input" 
+                                    placeholder="Phone number, username, or email"
+                                    required
+                                >
+                            </div>
+                            <div class="form-group">
+                                <input 
+                                    type="password" 
+                                    name="password" 
+                                    class="form-input" 
+                                    placeholder="Password"
+                                    required
+                                >
+                            </div>
+                            <div class="form-group" style="margin-top: 14px;">
+                                <button type="submit" class="btn btn-primary" disabled>Log In</button>
+                            </div>
+                        </form>
+
+                        <!-- Divider -->
+                        <div class="divider">
+                            <span>OR</span>
+                        </div>
+
+                        <!-- Facebook Login -->
+                        <a href="#" class="facebook-login">
+                            <div class="facebook-icon"></div>
+                            Log in with Facebook
+                        </a>
+
+                        <!-- Forgot Password -->
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                    </div>
+
+                    <!-- Signup Link Card -->
+                    <div class="auth-card signup-link">
+                        <p style="font-size: 14px; margin: 0;">
+                            Don't have an account? 
+                            <a href="signup.html" class="auth-link">Sign up</a>
+                        </p>
+                    </div>
+
+                    <!-- App Download Section -->
+                    <div class="app-download">
+                        <p>Get the app.</p>
+                        <div class="download-buttons">
+                            <a href="#" class="download-btn">
+                                <img src="data:image/svg+xml,<svg width=\"136\" height=\"40\" viewBox=\"0 0 136 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"136\" height=\"40\" rx=\"8\" fill=\"%23000\"/><text x=\"68\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-family=\"Arial\" font-size=\"12\" font-weight=\"bold\">Download on the App Store</text></svg>" alt="Download on the App Store">
+                            </a>
+                            <a href="#" class="download-btn">
+                                <img src="data:image/svg+xml,<svg width=\"136\" height=\"40\" viewBox=\"0 0 136 40\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"136\" height=\"40\" rx=\"8\" fill=\"%23000\"/><text x=\"68\" y=\"25\" text-anchor=\"middle\" fill=\"white\" font-family=\"Arial\" font-size=\"12\" font-weight=\"bold\">Get it on Google Play</text></svg>" alt="Get it on Google Play">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#" class="footer-link">Meta</a>
+                <a href="#" class="footer-link">About</a>
+                <a href="#" class="footer-link">Blog</a>
+                <a href="#" class="footer-link">Jobs</a>
+                <a href="#" class="footer-link">Help</a>
+                <a href="#" class="footer-link">API</a>
+                <a href="#" class="footer-link">Privacy</a>
+                <a href="#" class="footer-link">Terms</a>
+                <a href="#" class="footer-link">Top Accounts</a>
+                <a href="#" class="footer-link">Locations</a>
+                <a href="#" class="footer-link">Instagram Lite</a>
+                <a href="#" class="footer-link">Threads</a>
+                <a href="#" class="footer-link">Contact Uploading & Non-Users</a>
+                <a href="#" class="footer-link">Meta Verified</a>
+            </div>
+            <div class="footer-copyright">
+                <span>English</span> © 2024 Instagram from Meta
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login • Instagram</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-wrapper">
+            <div class="auth-card main">
+                <div style="text-align: center; margin-bottom: 32px;">
+                    <h1 style="font-family: 'Cookie', cursive; font-size: 51px; color: #262626; margin: 0; font-weight: normal; line-height: 1;">Instagram</h1>
+                </div>
+
+                <form class="auth-form" id="loginForm">
+                    <div class="form-group">
+                        <input type="text" name="username" class="form-input" placeholder="Phone number, username, or email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" class="form-input" placeholder="Password" required>
+                    </div>
+                    <div class="form-group" style="margin-top: 14px;">
+                        <button type="submit" class="btn btn-primary" disabled>Log In</button>
+                    </div>
+                </form>
+
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+
+                <a href="#" class="facebook-login">
+                    <div class="facebook-icon"></div>
+                    Log in with Facebook
+                </a>
+
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+
+            <div class="auth-card signup-link">
+                <p style="font-size: 14px; margin: 0;">
+                    Don't have an account? 
+                    <a href="signup.html" class="auth-link">Sign up</a>
+                </p>
+            </div>
+
+            <div class="app-download">
+                <p>Get the app.</p>
+                <div class="download-buttons">
+                    <a href="#" class="download-btn">
+                        <img src="data:image/svg+xml,<svg width='136' height='40' viewBox='0 0 136 40' xmlns='http://www.w3.org/2000/svg'><rect width='136' height='40' rx='8' fill='%23000'/><text x='68' y='25' text-anchor='middle' fill='white' font-family='Arial' font-size='12' font-weight='bold'>App Store</text></svg>" alt="App Store">
+                    </a>
+                    <a href="#" class="download-btn">
+                        <img src="data:image/svg+xml,<svg width='136' height='40' viewBox='0 0 136 40' xmlns='http://www.w3.org/2000/svg'><rect width='136' height='40' rx='8' fill='%23000'/><text x='68' y='25' text-anchor='middle' fill='white' font-family='Arial' font-size='12' font-weight='bold'>Google Play</text></svg>" alt="Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
