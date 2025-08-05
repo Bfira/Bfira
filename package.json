@@ -1,0 +1,22 @@
+{
+  "name": "telegram-gemini-bot",
+  "version": "1.0.0",
+  "description": "A powerful Telegram bot that automatically edits channel posts using Gemini AI",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": ["telegram", "bot", "gemini", "ai", "channel", "automation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "@google/generative-ai": "^0.17.1",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
